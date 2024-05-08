@@ -11,7 +11,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
         <div className="container" style={{ padding: "50px 0 100px 0" }}>
           {children}
